@@ -32,5 +32,3 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 La licencia del proyecto está en la raíz del repositorio (p. ej. `LICENSE`). Respeta los términos antes de redistribuir o reutilizar código.
 
 ---
-
-Si necesitas que el README incluya información adicional (por ejemplo, listas de dependencias concretas, instrucciones para configurar CI/CD, o detalles sobre flavors y signing), dime qué detalles específicos quieres y lo actualizo aquí.
