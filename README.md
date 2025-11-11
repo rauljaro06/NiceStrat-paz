@@ -2,8 +2,8 @@
 
 Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, valores), de la aplicacion `NiceStrat`.
 
-![registrar.png](img/registrar.png)<br>
-![login.png](img/login.png)<br>
+![registrar.png](img/registrar.png)
+![login.png](img/login.png)
 ![main.png](img/main.png)<br>
 
 
