@@ -27,8 +27,4 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 2. Abre un Pull Request hacia la rama destino (ej. `develop` o `main`) con una descripción clara de los cambios.
 4. Incluye screenshots o pasos para reproducir si el cambio afecta la UI.
 
-## Licencia
-
-La licencia del proyecto está en la raíz del repositorio (p. ej. `LICENSE`). Respeta los términos antes de redistribuir o reutilizar código.
-
 ---
