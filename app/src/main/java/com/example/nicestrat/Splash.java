@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -27,6 +29,12 @@ public class Splash extends AppCompatActivity {
         openApp();
 
         ImageView mSea = findViewById(R.id.backView);
+
+        ImageView thunder = findViewById(R.id.logosplash);
+
+        Animation myAnim = AnimationUtils.loadAnimation(this, R.anim.blink);
+        thunder.startAnimation(myAnim);
+
 
         Glide.with(this)
                 .load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
