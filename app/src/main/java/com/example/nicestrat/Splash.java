@@ -43,13 +43,6 @@ public class Splash extends AppCompatActivity {
                 //.diskCacheStrategy(DiskCacheStrategy.ALL)
                 //.placeholder(new ColorDrawable(this.getResources().getColor()))
                 .into(mSea);
-
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
     }
 
     private void openApp(){
