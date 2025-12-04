@@ -4,7 +4,7 @@
 
 Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, valores), de la aplicacion `NiceStrat`.
 
-<img src="img/registrar.png" alt="Registrar" width="200px"/> <img src="img/login.png" alt="Registrar" width="200px"/> <img src="img/main.png" alt="Registrar" width="200px"/> <img src="img/Captura%20de%20pantalla%202025-11-11%20a%20las%2013.46.16.png" alt="Registrar" width="200px"/>
+<img src="img/registrar.png" alt="Registrar" width="200px"/> <img src="img/login.png" alt="Registrar" width="200px"/> <img src="img/main.png" alt="Registrar" width="200px"/> <img src="img/Captura de pantalla 2025-11-11 a las 13.46.16.png" alt="Registrar" width="200px"/>
 
 
 ## Requisitos
