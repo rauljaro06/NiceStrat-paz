@@ -57,39 +57,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showAlertDialogButtonClicked(MainActivity mainActivity) {
-
-
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
 
-
-        builder.setTitle("Dialogo");
-        builder.setMessage("¿What u want?");
+        builder.setTitle("Confirmación");
+        builder.setMessage("¿Deseas continuar con esta acción? El progreso actual no se guardará.");
         builder.setIcon(R.drawable.usericon);
         builder.setCancelable(true);
 
-
-
-        builder.setPositiveButton("Scrolling", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 Intent intent = new Intent(MainActivity.this, Login.class);
-                startActivity(intent);
+                MainActivity.this.startActivity(intent);
             }
         });
 
-        builder.setNegativeButton("Nothing", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
 
-        builder.setNeutralButton("Other", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton("Salir", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                System.exit(0);
+                MainActivity.this.finishAffinity();
             }
         });
-
 
         AlertDialog dialog = builder.create();
         dialog.show();
